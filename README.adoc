@@ -211,7 +211,14 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 - Glisser le fichier de java que vous souhaitez tester dans votre dossier src et renommez la classe 'Exercice' (Vous devrez peut-être également modifier le nom du fichier java en lui même au risque de provoquer la colère de votre IDE).
 - Créez une nouveau fichier java dans src et appelez le 'Main'.
 - Dans ce fichier créez une classe en utilisant ce code :
-img:
+
+image::./images/exemplecode.PNG[Exemple de code pour tester les algorithmes]
+
+- Pour utiliser ResourceRecorder :
+ - Créer une nouvel objet ResourceRecorder au début de votre projet :
+ 
+ image::./images/exemplecode.PNG[Exemple de code pour tester les algorithmes]
+ 
 
 === Références
 
