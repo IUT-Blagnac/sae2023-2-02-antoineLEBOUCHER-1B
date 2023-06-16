@@ -196,13 +196,13 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 
 - Avoir un ordinateur.
 - Avoir installé Java (au minimum dans sa version 1.8)
-- Avoir installé un IDE permettant la lecture, l'édition et la compilation de code java comme link:https://www.jetbrains.com/idea/promo/?source=google&medium=cpc&campaign=395433264&term=intellij&content=&msclkid=70cbcad0de271c38fe86ae5cb5b79646&utm_source=bing&utm_medium=cpc&utm_campaign=EMEA_en_FR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea[Intellij] ou link:https://www.eclipse.org/downloads/[Eclipse].
+- Avoir installé un IDE permettant la lecture, l'édition et la compilation de code java comme link:https://www.jetbrains.com/idea/promo/?source=google&medium=cpc&campaign=395433264&term=intellij&content=&msclkid=70cbcad0de271c38fe86ae5cb5b79646&utm_source=bing&utm_medium=cpc&utm_campaign=EMEA_en_FR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea[IntelliJ] ou link:https://www.eclipse.org/downloads/[Eclipse].
 
 === Reproductibilité
 
 - Pour reproduire nos analyses :
 - link:https://www.mediafire.com/file/499bjrrtzquydja/Affectations_Antoine.zip/file[Télecharger] tous les algorithmes qui m'ont été affectés si vous voulez réaliser les tests sur les mêmes algorithmes que moi.
-- link:https://www.mediafire.com/file/njsrrwv7nbgmoao/Outils.zip/file[Télécharger] les tests JUnit et la classe ResourceRecorder permettant d'évaluer le temps d'exécution et l'utilisation mémoire d'un programme.
+- link:https://www.mediafire.com/file/njsrrwv7nbgmoao/Outils.zip/file[Télécharger] les tests JUnit 'ExerciceTest' et la classe ResourceRecorder permettant d'évaluer le temps d'exécution et l'utilisation mémoire d'un programme.
 - Créez un nouveau projet java
 - Créez un dossier src si ce n'est pas déjà fait
 - Importez la classe de tests et la classe ResourceRecorder
@@ -217,8 +217,20 @@ image::./images/exemplecode.PNG[Exemple de code pour tester les algorithmes]
 - Pour utiliser ResourceRecorder :
  - Créer une nouvel objet ResourceRecorder au début de votre projet :
  
- image::./images/exemplecode.PNG[Exemple de code pour tester les algorithmes]
+image::./images/exempleobjetresourcerecorder.PNG[Exemple d'objet ResourceRecorder]
  
+  - Utilisez les méthodes start() et stop() respectivement au début et à la fin de l'algorithme que vous souhaitez tester.
+ 
+image::./images/exemplestartstop.PNG[Exemple d'utilisation des méthodes start() et stop()]
+ 
+  - Affichez à l'écran l'objet (appeler toString() n'est pas obligatoire)
+ 
+image::./images/sortie.PNG[Exemple de print de l'objet]
+
+  - Si vous avez suivi pas à pas les étapes précédentes alors vous devriez voir apparaître le temps d'exécution et la mémoire utilisée de votre programme en le lançant.
+
+- Pour lancer les tests :
+ - Rien de plus simple ! Cliquez droit sur la classe de test 'ExerciceTest' et cliquer sur Run as .. JUnit Test si vous êtes sur Eclipse. Lancer simplement le programme si vous êtes sur IntelliJ.
 
 === Références
 
