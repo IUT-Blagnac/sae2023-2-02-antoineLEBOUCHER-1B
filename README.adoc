@@ -194,20 +194,28 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 Voici les pré-requis pour exécuter nos codes d'évaluation.
 
-- Java v.x.y.z
-- ...
+- Avoir un ordinateur.
+- Avoir installé Java (au minimum dans sa version 1.8)
+- Avoir installé un IDE permettant la lecture, l'édition et la compilation de code java comme link:https://www.jetbrains.com/idea/promo/?source=google&medium=cpc&campaign=395433264&term=intellij&content=&msclkid=70cbcad0de271c38fe86ae5cb5b79646&utm_source=bing&utm_medium=cpc&utm_campaign=EMEA_en_FR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea[Intellij] ou link:https://www.eclipse.org/downloads/[Eclipse].
 
 === Reproductibilité
 
 - Pour reproduire nos analyses :
-. Installez X
-. Lancez Y
-. ...
+- link:https://www.mediafire.com/file/499bjrrtzquydja/Affectations_Antoine.zip/file[Télecharger] tous les algorithmes qui m'ont été affectés si vous voulez réaliser les tests sur les mêmes algorithmes que moi.
+- link:https://www.mediafire.com/file/njsrrwv7nbgmoao/Outils.zip/file[Télécharger] les tests JUnit et la classe ResourceRecorder permettant d'évaluer le temps d'exécution et l'utilisation mémoire d'un programme.
+- Créez un nouveau projet java
+- Créez un dossier src si ce n'est pas déjà fait
+- Importez la classe de tests et la classe ResourceRecorder
+- Aller dans le dossier correspondant au projet que vous avez créé. 
+- Extrayez le dossier de mes affectations dans votre dossier de projet ou le dossier contenant les algorithmes à tester.
+- Glisser le fichier de java que vous souhaitez tester dans votre dossier src et renommez la classe 'Exercice' (Vous devrez peut-être également modifier le nom du fichier java en lui même au risque de provoquer la colère de votre IDE).
+- Créez une nouveau fichier java dans src et appelez le 'Main'.
+- Dans ce fichier créez une classe en utilisant ce code :
+img:
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- link:https://www.codacy.com/[Site de Codacy] pour évaluer la clarté et la simplicité d'un code.
 
 == Généralités, notation de la SAÉ et résultat du concours
 
