@@ -3,7 +3,7 @@ package exercice;
 import java.util.List;
 import java.util.ArrayList;
 
-public class efficacite_meilleur2 {
+public class Exercice {
     public static List<String> solution(String str, List<Character> ordre) {
         List<String> result = new ArrayList<>();
         
